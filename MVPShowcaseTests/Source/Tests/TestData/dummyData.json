@@ -1,0 +1,39 @@
+{
+  "items": [
+    {
+      "uid": "1",
+      "name": "First item",
+      "description": "A red balloon",
+      "price": 9.99,
+      "location": "New York"
+    },
+    {
+      "uid": "2",
+      "name": "Second item",
+      "description": "A red harring",
+      "price": 199.99,
+      "location": "In the ocean"
+    },
+    {
+      "uid": "3",
+      "name": "Third item",
+      "description": "Unknown item. Nobody bothered with the description.",
+      "price": 23.99,
+      "location": "Los Angeles"
+    },
+    {
+      "uid": "4",
+      "name": "Fourth item",
+      "description": "A nice yellow lemon.",
+      "price": 0.99,
+      "location": "Los Angeles"
+    },
+    {
+      "uid": "5",
+      "name": "Fifth item",
+      "description": "A nice red strawberry.",
+      "price": 13.99,
+      "location": "Los Angeles"
+    }
+  ]
+}
