@@ -19,7 +19,7 @@ class MVPShowcaseUnitTests: MVPShowcaseTestsBase {
         store = TestMockupStore()
         store.prepare(with: jsonData)
         
-        presenter = ItemListingPresenter(with: store)
+        presenter = ItemListingPresenter(with: store) {_ in }
         presenter.requestListingData()
     }
 

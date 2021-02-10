@@ -19,7 +19,7 @@ class MVPShowcaseIntegrationTests: MVPShowcaseTestsBase {
         store = TestMockupStore()
         store.prepare(with: jsonData)
         
-        presenter = ItemListingPresenter(with: store)
+        presenter = ItemListingPresenter(with: store) {_ in }
     }
 
     func testThat_ItemListingPresenterView_CorrectlyGetsNotified_OnMainThread_AfterAListingRequestIsSent() {
